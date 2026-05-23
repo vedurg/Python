@@ -52,7 +52,7 @@ python Logic_Box.py
 
 ## Example Output
 
-``text
+
 Welcome to the Pattern Generator and Number Analyzer!
 
 Select an option:
