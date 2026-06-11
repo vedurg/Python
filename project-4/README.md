@@ -1,175 +1,99 @@
-# Data Analyzer and Transformer Program
+# 📊 Data Analyzer & Transformer
 
-## Description
+A Python mini project for analyzing and transforming numerical datasets using various Python concepts.
 
-This Python program allows users to input numerical data and perform different operations such as:
-
-* Data Summary
-* Factorial Calculation using Recursion
-* Data Filtering using Lambda Function
-* Data Sorting
-* Dataset Statistics using `*args` and `**kwargs`
-
----
-
-## Features
+## ✨ Features
 
 ### 1. Input Data
 
-Store integer values in a 1D array.
+Allows users to enter and store numerical data in a dataset.
 
-### 2. Display Data Summary
+### 2. Data Summary
 
-Shows:
+Displays:
 
 * Total Elements
 * Minimum Value
 * Maximum Value
-* Sum
-* Average
+* Sum of Values
+* Average Value
 
-### 3. Calculate Factorial (Recursion)
+### 3. Factorial Calculation
 
-Calculates factorial of a number using a recursive function.
+Calculates the factorial of a number using recursion.
 
-### 4. Filter Data by Threshold (Lambda Function)
+### 4. Data Filtering
 
-Displays values greater than or equal to the entered threshold.
+Filters dataset values based on a user-defined threshold using a lambda function.
 
-### 5. Sort Data
+### 5. Data Sorting
 
-Sort data in:
+Sorts the dataset in:
 
 * Ascending Order
 * Descending Order
 
 ### 6. Dataset Statistics
 
-Displays:
+Displays detailed statistical information about the dataset.
 
-* Minimum Value
-* Maximum Value
-* Sum
-* Average
+## 🛠 Concepts Used
 
-using a function that returns multiple values.
-
----
-
-## Functions Used
-
-### statistics(*args, **kwargs)
-
-Calculates:
-
-* Minimum value
-* Maximum value
-* Sum
-* Average
-
-Uses:
-
-* `*args` for dataset values
-* `**kwargs` for optional title
-
-### fact(n)
-
-Recursive function to calculate factorial.
-
----
-
-## Python Concepts Used
-
-* List
 * Functions
-* Docstrings
+* Global Variable
+* List Comprehension
 * Recursion
 * Lambda Function
-* Filter Function
-* Built-in Functions
-* *args
-* **kwargs
-* Return Multiple Values
 * Conditional Statements
-* Loops
+* While Loop
+* Built-in Functions
 
----
+## 🎯 Learning Outcomes
 
-## Documentation Used
+After completing this project, you will understand:
 
-### Docstrings
+* How to create and use functions
+* Working with lists and datasets
+* Using recursion to solve problems
+* Applying lambda functions for data filtering
+* Sorting and analyzing data
+* Building menu-driven Python applications
+* Using built-in functions effectively
 
-The program uses docstrings to describe functions, their parameters, return values, and usage examples.
-
-Functions with docstrings:
-- statistics(*args, **kwargs)
-- fact(n)
-
----
-
-## Methods and Functions NOT Used
-
-### List Methods Not Used
-
-* append()
-* insert()
-* extend()
-* remove()
-* pop()
-* clear()
-* copy()
-* reverse()
-* count()
-* index()
-
-### Built-in Functions Not Used
-
-* map()
-* enumerate()
-* zip()
-* any()
-* all()
-
-### String Methods Not Used
-
-* replace()
-* upper()
-* lower()
-* strip()
-* splitlines()
-
-### Collection Types Not Use
-
-* Set
-* Dictionary
-
----
-
-## ▶️ How to Run
+## ▶️ Run the Program
 
 ```bash
 python Functional_Treat.py
 ```
 
-## Example Input
+## 📋 Example Output
 
+```text
+Welcome to the Data Analyzer and Transformer Program
+
+Main Menu:
+1. Input Data
+2. Display Data Summary
+3. Calculate Factorial
+4. Filter Data by Threshold
+5. Sort Data
+6. Display Dataset Statistics
+7. Exit Program
+
+Please enter your choice: 1
+
+Enter data for 1D array:
 10 20 30 40 50
 
-## Example Output
+Data has been stored successfully!
+
+Please enter your choice: 2
 
 Data Summary:
+- Total elements: 5
+- Minimum value: 10
+- Maximum value: 50
+- Sum of all values: 150
+- Average value: 30.00
+```
 
-* Total elements: 5
-* Minimum value: 10
-* Maximum value: 50
-* Sum of all values: 150
-* Average value: 30.00
-
-Dataset Statistics:
-
-* Minimum value: 10
-* Maximum value: 50
-* Sum of all values: 150
-* Average value: 30.00
-
-Thank you for using the Data Analyzer and Transformer Program.
