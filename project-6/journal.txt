@@ -1,8 +1,0 @@
-----------------------------
-[20-06-2026 16:42:09]
-Today was a productive day. I learned about file handling in python.
-
-----------------------------
-[20-06-2026 16:42:39]
-Had a great session on opp concepts!
-

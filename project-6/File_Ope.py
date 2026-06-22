@@ -1,7 +1,5 @@
 #File Operator
 
-from datetime import datetime
-
 print("\nWelcome to Personal Journal Manager!")
 
 class JournalManager:
@@ -10,13 +8,15 @@ class JournalManager:
         self.filename = "journal.txt"
 
     def add_entry(self):
-        entry = input("\nEnter your journal entry:\n")
+        entry = input("\nEnter your journal entry with current Date and Time:\n")
 
-        date_str = datetime.now().strftime("[%d-%m-%Y %H:%M:%S]")
+        date_str = input("Enter Current Date: ")
+        time_str = input("Enter Current Time: ")
 
         file = open(self.filename, "a")
         file.write("----------------------------\n")
-        file.write(date_str + "\n")
+        file.write("Date: " + date_str + "\n")
+        file.write("Time: " + time_str + "\n")
         file.write(entry + "\n\n")
         file.close()
 
@@ -48,7 +48,7 @@ class JournalManager:
             content = file.read()
             file.close()
 
-            if keyword in content.lower() and keyword.strip() != "" :
+            if keyword in content.lower():
                 print("\nOutput (If a match is found):")
                 print("Matching Entries:")
                 print("-----------------------------")
